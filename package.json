@@ -1,0 +1,22 @@
+{
+  "name": "pubsweet-prereview-theme",
+  "version": "0.0.0",
+  "description": "The PREreview pubsweet theme",
+  "main": "src",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@pubsweet/ui-toolkit": "^2.1.0",
+    "cokourier-prime-sans": "git+https://gitlab.coko.foundation/julientaq/cokourier-sans-prime.git",
+    "styled-components": "^4.1.1",
+    "typeface-noto-sans": "0.0.54",
+    "typeface-vollkorn": "^0.0.54"
+  },
+  "devDependencies": {
+    "pubsweet": "^3.1.3",
+    "stylelint-config-prettier": "^4.0.0",
+    "stylelint-config-pubsweet": "0.0.3"
+  }
+}
